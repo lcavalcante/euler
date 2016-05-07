@@ -51,7 +51,7 @@ def pollard_rho(n)
     return factor
 end
 
-number = 6857
+number = 600851475143
 while true
     result = pollard_rho(number)
     if number == result
